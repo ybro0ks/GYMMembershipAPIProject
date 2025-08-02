@@ -1,0 +1,232 @@
+[{
+  "_id": {
+    "$oid": "6638d62b4d0ddb4766045471"
+  },
+  "id": null,
+  "className": "Yoga",
+  "classDay": "Monday",
+  "Session": "3",
+  "length": null,
+  "price": null,
+  "numberOfMembers": null
+},
+{
+  "_id": {
+    "$oid": "6638dbf95ec46c506c84a088"
+  },
+  "id": 41033,
+  "className": "online transmitter",
+  "classDay": "Saturday",
+  "sessionLength": 1,
+  "price": "41",
+  "numOfMembers": 9
+},
+{
+  "_id": {
+    "$oid": "6638dc015ec46c506c84a089"
+  },
+  "id": 13228,
+  "className": "bluetooth circuit",
+  "classDay": "Wednesday",
+  "sessionLength": 3,
+  "price": "47",
+  "numOfMembers": 18
+},
+{
+  "_id": {
+    "$oid": "6638dc045ec46c506c84a08a"
+  },
+  "id": 20699,
+  "className": "cross-platform capacitor",
+  "classDay": "Sunday",
+  "sessionLength": 2,
+  "price": "46",
+  "numOfMembers": 6
+},
+{
+  "_id": {
+    "$oid": "6638dc065ec46c506c84a08b"
+  },
+  "id": 70578,
+  "className": "online firewall",
+  "classDay": "Thursday",
+  "sessionLength": 2,
+  "price": "85",
+  "numOfMembers": 26
+},
+{
+  "_id": {
+    "$oid": "6638dc085ec46c506c84a08c"
+  },
+  "id": 53957,
+  "className": "1080p microchip",
+  "classDay": "Friday",
+  "sessionLength": 1,
+  "price": "69",
+  "numOfMembers": 12
+},
+{
+  "_id": {
+    "$oid": "6638dc0a5ec46c506c84a08d"
+  },
+  "id": 23834,
+  "className": "solid state microchip",
+  "classDay": "Sunday",
+  "sessionLength": 1,
+  "price": "37",
+  "numOfMembers": 15
+},
+{
+  "_id": {
+    "$oid": "6638dc0d5ec46c506c84a08e"
+  },
+  "id": 96524,
+  "className": "back-end panel",
+  "classDay": "Wednesday",
+  "sessionLength": 3,
+  "price": "55",
+  "numOfMembers": 12
+},
+{
+  "_id": {
+    "$oid": "6638dc105ec46c506c84a08f"
+  },
+  "id": 53126,
+  "className": "optical transmitter",
+  "classDay": "Thursday",
+  "sessionLength": 1,
+  "price": "64",
+  "numOfMembers": 10
+},
+{
+  "_id": {
+    "$oid": "6638dc135ec46c506c84a090"
+  },
+  "id": 9012,
+  "className": "redundant protocol",
+  "classDay": "Friday",
+  "sessionLength": 3,
+  "price": "78",
+  "numOfMembers": 25
+},
+{
+  "_id": {
+    "$oid": "6638dc135ec46c506c84a091"
+  },
+  "id": 59259,
+  "className": "solid state microchip",
+  "classDay": "Saturday",
+  "sessionLength": 2,
+  "price": "23",
+  "numOfMembers": 7
+},
+{
+  "_id": {
+    "$oid": "6638dc175ec46c506c84a092"
+  },
+  "id": 67565,
+  "className": "mobile hard drive",
+  "classDay": "Friday",
+  "sessionLength": 3,
+  "price": "39",
+  "numOfMembers": 20
+},
+{
+  "_id": {
+    "$oid": "6638dc175ec46c506c84a095"
+  },
+  "id": 58512,
+  "className": "optical interface",
+  "classDay": "Monday",
+  "sessionLength": 2,
+  "price": "76",
+  "numOfMembers": 13
+},
+{
+  "_id": {
+    "$oid": "6638dc175ec46c506c84a096"
+  },
+  "id": 44421,
+  "className": "neural application",
+  "classDay": "Monday",
+  "sessionLength": 2,
+  "price": "60",
+  "numOfMembers": 23
+},
+{
+  "_id": {
+    "$oid": "6638dc175ec46c506c84a097"
+  },
+  "id": 93476,
+  "className": "optical hard drive",
+  "classDay": "Saturday",
+  "sessionLength": 3,
+  "price": "29",
+  "numOfMembers": 29
+},
+{
+  "_id": {
+    "$oid": "6638dc175ec46c506c84a094"
+  },
+  "id": 49163,
+  "className": "haptic application",
+  "classDay": "Wednesday",
+  "sessionLength": 3,
+  "price": "28",
+  "numOfMembers": 8
+},
+{
+  "_id": {
+    "$oid": "6638dc175ec46c506c84a093"
+  },
+  "id": 77671,
+  "className": "haptic panel",
+  "classDay": "Wednesday",
+  "sessionLength": 2,
+  "price": "38",
+  "numOfMembers": 14
+},
+{
+  "_id": {
+    "$oid": "6638dc215ec46c506c84a098"
+  },
+  "id": 31532,
+  "className": "cross-platform circuit",
+  "classDay": "Saturday",
+  "sessionLength": 3,
+  "price": "34",
+  "numOfMembers": 6
+},
+{
+  "_id": {
+    "$oid": "6638dc245ec46c506c84a099"
+  },
+  "id": 24583,
+  "className": "haptic circuit",
+  "classDay": "Sunday",
+  "sessionLength": 2,
+  "price": "42",
+  "numOfMembers": 15
+},
+{
+  "_id": {
+    "$oid": "6638dc275ec46c506c84a09a"
+  },
+  "id": 79124,
+  "className": "optical alarm",
+  "classDay": "Wednesday",
+  "sessionLength": 3,
+  "price": "54",
+  "numOfMembers": 17
+},
+{
+  "_id": {
+    "$oid": "6638dc2a5ec46c506c84a09b"
+  },
+  "id": 4329,
+  "className": "online firewall",
+  "classDay": "Tuesday",
+  "sessionLength": 1,
+  "price": "51",
+  "numOfMembers": 11
+}]

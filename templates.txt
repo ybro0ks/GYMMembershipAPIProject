@@ -1,0 +1,46 @@
+Code was tested in chrome and Insomnia, here are some templates as my code works with user inputs to post, patch, put and delete.
+this is what i used in the images provided to test my code.
+important: you need to make the connection as inn you need to add users to classes for the full document to work properly
+Thanks for reading.
+{
+	"id": "2",
+    "title": "mr",
+    "firstName": "Gavin",
+    "lastName": "Olayemi",
+    "email": "gavinOlayemi@gmail.com",
+    "premiumMember": "Y"
+}
+
+
+template for inserting new user, just add and remove as needed while testing.
+
+{
+	"id": "3",
+    "premiummemberNew" : "N"
+}
+
+//template for updating user
+
+{
+	"id": "3"
+
+}
+template for deleting user by Id.
+
+{
+
+	"id": "1",
+    "className": "Yoga",
+    "classDay": "Monday",
+    "Session": "3",
+    "length": "3",
+    "numberOfMembers": "2"
+
+
+}
+
+template for creating user
+	"id": "1",
+    "price" : "50"
+
+template for updating user. adds price to the user as i didnt add price in the first one.

@@ -5,7 +5,7 @@ const faker = require('faker');
 const app = express();
 app.use(express.json());
 
-const ATLAS_URI = "mongodb+srv://brooklynigb:udta9GuVeY2OEINT@project.plsgtzi.mongodb.net/?retryWrites=true&w=majority&appName=Project";
+const ATLAS_URI = 
 const client = new MongoClient(ATLAS_URI);
 
 async function connectToDatabase() {
@@ -351,3 +351,4 @@ app.listen(port, () => {
 //         res.status(500).send('Failed to create random gym class');
 //     }
 // });
+

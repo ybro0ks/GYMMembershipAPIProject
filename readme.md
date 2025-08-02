@@ -1,44 +1,75 @@
-Project Overview: Gym Membership RESTful API
-In this project, I developed a Node.js application to implement a RESTful API for managing gym membership data. The system interacts with a MongoDB database to handle personal information for gym members, class details, and the association between members and the classes they attend.
+# Gym Membership RESTful API
 
-Database Structure
-Gym Member Details:
+## Project Overview
 
-ID (Integer)
-Title
-First Name
-Last Name
-Email Address
-Premium Membership (Boolean)
-Gym Class Details:
+This project is a Node.js application that implements a RESTful API for managing gym membership data. It uses MongoDB to store and manipulate data related to gym members, classes, and the associations between them.
 
-ID
-Class Name
-Class Day
-Session Length (Hrs) (Integer)
-Price (Integer)
-Current Number of Members (Integer)
-Member-Class Information:
+---
 
-User ID
-Class ID
-RESTful API Functionality
-I implemented CRUD operations to manage gym member details, class information, and the relationships between members and their classes. These routes were tested using tools like Postman or Insomnia.
+## Database Structure
 
-Implementation Details
-Framework: I used ExpressJS to set up the RESTful API.
-Database: The system uses a MongoDB database, and I opted for Mongoose for handling database operations.
-Setup: I worked with both a local MongoDB installation and MongoDB Cloud Atlas for database storage.
-CRUD Operations
-Create: Adding new records for members, classes, and associations.
-Retrieve: Searching and displaying details of members, classes, and their connections.
-Update: Modifying existing details of members and classes.
-Delete: Removing specified entries from the database.
-Development Notes
-Database Design: I adopted a NoSQL database design, utilizing both normalized and de-normalized models as needed.
-Data Generation: I wrote functions to generate random data, with some hard-coded examples used in CRUD operations.
-Title Options: Included support for titles such as Mx, Ms, Mr, Mrs, Miss, Dr, or other specified titles.
-Code Comments: Provided detailed comments including database design descriptions and examples of routes.
-Data Validation: While validation in controllers was optional, I included it based on the available guidance.
-Authentication: Hard-coded authentication details into the database, enabling access from any IP address (whitelisted 0.0.0.0) for testing purposes.
-By following these practices, I successfully delivered a robust backend application for efficient management of gym memberships via RESTful API.
+### Gym Member Details
+- `ID` (Integer)
+- `Title`
+- `First Name`
+- `Last Name`
+- `Email Address`
+- `Premium Membership` (Boolean)
+
+### Gym Class Details
+- `ID`
+- `Class Name`
+- `Class Day`
+- `Session Length (hrs)` (Integer)
+- `Price` (Integer)
+- `Current Number of Members` (Integer)
+
+### Member-Class Information
+- `User ID`
+- `Class ID`
+
+---
+
+## RESTful API Functionality
+
+CRUD operations were implemented for managing:
+- Gym members
+- Gym classes
+- Relationships between members and classes
+
+Tested using tools such as **Postman** and **Insomnia**.
+
+---
+
+## Implementation Details
+
+- **Framework:** ExpressJS
+- **Database:** MongoDB (local and MongoDB Cloud Atlas)
+- **ODM:** Mongoose
+
+---
+
+## CRUD Operations
+
+- **Create:** Add new members, classes, or associations.
+- **Retrieve:** View member/class details and relationships.
+- **Update:** Edit existing member or class information.
+- **Delete:** Remove members, classes, or associations.
+
+---
+
+## Development Notes
+
+- **Database Design:** NoSQL structure with both normalized and de-normalized models.
+- **Data Generation:** Included random data generation functions and hard-coded examples for CRUD testing.
+- **Title Support:** Accepts titles like Mx, Ms, Mr, Mrs, Miss, Dr, and custom entries.
+- **Code Comments:** Contains extensive comments describing database design and route usage.
+
+---
+
+## Getting Started
+
+1. Clone the repo
+2. Run `npm install`
+3. Configure MongoDB URI in `.env`
+4. Run the app: `npm start`
